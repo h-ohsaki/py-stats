@@ -7,7 +7,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name="py-stats",
-    version="0.1",
+    version="0.2",
     author="Hiroyuki Ohsaki",
     author_email="ohsaki@lsnl.jp",
     description="calcurate statistics of values in each column",
