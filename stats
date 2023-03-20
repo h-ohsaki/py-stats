@@ -25,7 +25,7 @@ import statistics
 import sys
 
 from perlcompat import die, warn, getopts
-#import tbdump
+import tbdump
 
 IS_MULTI = {'covar', 'corr', 'spearmn', 'kendall', 'rise', 'settling'}
 
@@ -251,7 +251,7 @@ def main():
 
         for col, val in enumerate(fields):
             if val == 'NaN':
-                data[col] = []
+                pass
             else:
                 data[col].append(float(val))
 
